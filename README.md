@@ -1,25 +1,23 @@
-# Movie Rating Prediction 🎬
+# 🎬 Movie Rating Prediction
 
-This project builds a machine learning model to predict movie ratings based on various features like genre, director, cast, and more using regression techniques.
+This project builds a machine learning model to predict movie ratings based on features like genre, director, cast, and more using regression techniques.
 
-## Features
-- Uses TMDb movie metadata
-- Data preprocessing and visualization
-- Regression model training and evaluation
+## 🚀 Features
+- Utilizes TMDb 5000 Movie Metadata
+- Includes data preprocessing and visualization
+- Trains and evaluates a regression model for rating prediction
 
-## Getting Started
-To run this project:
-```bash
-pip install -r requirements.txt
-```
+## 📂 Dataset
 
-Then, open the Jupyter notebook:
-```bash
-jupyter notebook movie_rating_prediction.ipynb
-```
+The dataset used in this project is the **[TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)**, which includes:
 
-## Dataset
-Make sure to place your dataset in the `dataset/` folder.
+- `tmdb_5000_movies.csv`
+- `tmdb_5000_credits.csv`
 
-## Author
-- Rajkumar Esram
+These files are included in the `data/` folder of this repository.
+
+## 🛠 Getting Started
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
